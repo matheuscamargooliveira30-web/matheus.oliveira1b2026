@@ -14,9 +14,7 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#000;
-    border-bottom:2px solid #c8a13d;
-    padding:20px 60px;
+    padding:25px 70px;
 }
 
 .logo h1{
@@ -39,32 +37,19 @@ nav a:hover{
     color:#c8a13d;
 }
 
-.banner{
-    height:650px;
-    background:
-    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
-    url("img/banner.jpg");
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-}
-
 .banner-conteudo h2{
-    font-size:65px;
-    color:white;
+    font-size:72px;
+    color:#fff;
+    margin-bottom:15px;
 }
 
 .banner-conteudo h3{
-    color:#c8a13d;
-    margin-top:15px;
-    font-size:30px;
+    color:#d4af37;
+    font-size:34px;
+    margin-bottom:20px;
 }
 
 .banner-conteudo p{
-    margin-top:20px;
     font-size:22px;
 }
 
