@@ -93,4 +93,73 @@ td{
 
 tr:hover{
     background:#1b1b1b;
+} 
+.banner-pagina{
+    height:320px;
+    background:
+    linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.75)),
+    url("img/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.banner-texto{
+    text-align:center;
+}
+
+.banner-texto h1{
+    font-size:55px;
+    color:#fff;
+}
+
+.banner-texto p{
+    margin-top:15px;
+    font-size:22px;
+    color:#ddd;
+} 
+.cards{
+    width:90%;
+    margin:60px auto;
+
+    display:flex;
+    gap:30px;
+    justify-content:center;
+}
+
+.card{
+    width:320px;
+    background:#111;
+
+    border:2px solid #d4af37;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.card p{
+    font-size:24px;
+    margin:15px 0;
+}
+
+.card h3{
+    color:white;
 }
